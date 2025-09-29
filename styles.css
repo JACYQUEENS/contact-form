@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f3ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Heading */
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #222;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+label span {
+  color: #2e8b57;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Two-column row for name */
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+/* Radio buttons */
+.radio-group {
+  display: flex;
+  gap: 15px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.radio-group input {
+  accent-color: #2e8b57;
+}
+
+/* Checkbox */
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+/* Submit button */
+.btn-submit {
+  width: 100%;
+  background-color: #0b6847;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #095a3c;
+}
